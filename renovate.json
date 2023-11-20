@@ -3,5 +3,13 @@
    "extends": ["config:base"],
   "baseBranches": ["main"],
   "separateMultipleMajor": true,
+  "packageRules": [
+    {
+      "groupName": "androidx",
+      "matchPackagePatterns": [
+        "androidx.*"
+      ],
+    }
+  ]
   
 }
