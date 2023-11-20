@@ -5,7 +5,7 @@
   "separateMultipleMajor": true,
   "packageRules": [
     {
-      "groupName": "androidx",
+      "groupName": "androidx pr update",
       "matchPackagePatterns": [
         "androidx.*"
       ],
